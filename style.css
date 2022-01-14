@@ -1,0 +1,57 @@
+/*--------------------
+ goggole font use
+ ---------------- */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* ---------------
+first-header er kaj
+---------------- */
+
+h3{
+    margin-left: 60px;
+    margin-top: 60px;
+}
+nav {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-right: 40px;
+    
+}
+.first-header{
+    margin-top: 60px;
+
+}
+.container{
+    display: flex;
+    margin-bottom: 40px;
+}
+.first-part{
+    width: 600px;
+    margin-left: 60px;
+    text-align: justify;
+}
+a{
+    
+    text-decoration: none;
+    padding: 5px;
+    background-color: rgb(119, 36, 119) ;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+.first-part-pro{
+
+    margin-left: 60px;
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+}
+.picture{
+    margin-top:;
+    margin-left: 60px;
+    text-align: center;
+}
+hr{
+    border:3px solid grey;
+}
