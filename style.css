@@ -55,3 +55,49 @@ a{
 hr{
     border:3px solid grey;
 }
+/*-----------------
+2nd header er kaj shuru
+------------------------ */
+
+#center{
+    text-align: center;
+}
+.second-header{
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.second-part{
+    grid-row-gap: 30px;
+   
+  
+}
+.last{
+    justify-content: flex-end;
+}
+/* 3rd partt */
+.third-header{
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.third-part{
+    display: flex;
+
+}
+.third-part-likha{
+    width: 700px;
+}
+.third-part-image img{
+    width: 500px;
+
+}
+.finished{
+    text-align: center;
+    margin-top: 30px;
+    background-color: rgb(46, 27, 63);
+    padding: 20px;
+}
