@@ -134,3 +134,32 @@ hr{
     margin-left: 1000px;
     
 }
+.flex-gap {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-left: 250px;
+  }
+  
+  .flex-gap > div {
+    margin-right: 30px;
+    margin-top: 10px;
+  }
+  /* media queries */
+  /* mobile devices */
+  @media only screen and (max-width:688px) {
+      .solve, .container, .third-part{
+          grid-template-columns: repeat(1, 1fr);
+      }
+
+      
+  }
+  @media only screen and (min-width:688px) and (max-width:992px) {
+    .solve, .container, .third-part{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+      
+  }
+
+
+  
